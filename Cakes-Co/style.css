@@ -1,1 +1,193 @@
 /*  Add your styling here */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+
+    
+    font-family: "Poppins";
+}
+
+.header{
+background-image: url("https://img.freepik.com/free-photo/ai-generated-cake-picture_23-2150649274.jpg?t=st=1727975187~exp=1727978787~hmac=c104251a6355823d13d2026977ec394fd60b7a64a70c5aab1676124ba2666817&w=1380" );
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 150px;
+position:relative;
+z-index: 2;
+text-align: center;
+}
+
+h1{
+    color: white;
+    z-index: 3;
+    position: relative;
+     bottom: 50px;
+     
+  
+  
+}
+
+.gray-cover{
+    background-color: rgba(5, 2, 2, 0.377);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    margin: 20px;
+    padding: 20px;
+    background-color:rgba(167, 68, 68, 0.322);
+    border-radius: 2px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+.navlist, a{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.main-container{
+    display:flex;
+        flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.aside-img{
+    width:400px;
+    border-radius:5px;
+}
+
+.text-section{
+    padding: 1em;
+    margin: 5em;
+}
+
+
+
+
+
+/* 
+ .cake-section{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 9px;
+    justify-content:center;
+}
+.select-cake{
+    position: relative;
+     overflow: hidden;
+    width: 200px;
+    border-radius: 3px;
+} 
+
+
+
+
+
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 40px;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        
+.cake-section:hover  .overlay {
+            visibility: visible;
+            opacity: 1;
+        }
+ */
+
+
+  .cake-section {
+        display: flex;
+         text-align: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 9px;
+    justify-content:center;
+
+    }
+
+    .cake-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .select-cake {
+  width: 200px;
+    border-radius: 3px;
+    
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 7px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+    }
+
+    .cake-item:hover .overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .text-container h1 {
+        color: black;
+             height: 2px;
+             
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    padding: 5em;
+    margin: 2em;
+    line-height:1.9em;
+            
+    }
+
+    .footer{
+        background-color: rgba(167, 68, 68, 0.322); 
+        padding: 80px;
+        margin-top: 80px;
+        
+    }
