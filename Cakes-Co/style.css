@@ -13,7 +13,7 @@ body{
 }
 
 .header{
-background-image: url("https://img.freepik.com/free-photo/ai-generated-cake-picture_23-2150649274.jpg?t=st=1727975187~exp=1727978787~hmac=c104251a6355823d13d2026977ec394fd60b7a64a70c5aab1676124ba2666817&w=1380" );
+background-image: url("https://images.pexels.com/photos/3850977/pexels-photo-3850977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" );
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h1{
 .navbar{
     margin: 20px;
     padding: 20px;
-    background-color:rgba(167, 68, 68, 0.322);
+    background-color:rgba(185, 177, 167, 0.438);
     border-radius: 2px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
@@ -58,13 +58,13 @@ h1{
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    color: white;
+    color: black ;
     font-weight: bold;
     
 }
 
 a:hover{
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(177, 47, 47, 0.726);
 }
 
 .main-container{
