@@ -187,7 +187,21 @@ a:hover{
 
     .footer-container{
         background-color: rgba(167, 68, 68, 0.322); 
-        padding: 80px;
+        padding: 10px;
         margin-top: 80px;
+        
+        
+    }
+
+    .contact h3{
+        display: flex;
+        justify-content:center;
+            margin: 2em;
+    }
+
+    .social-media{
+        display: flex;
+            justify-content: space-evenly;
+    flex-direction: row;
         
     }
