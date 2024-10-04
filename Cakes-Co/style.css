@@ -13,7 +13,7 @@ body{
 }
 
 .header{
-background-image: url("https://images.pexels.com/photos/3850977/pexels-photo-3850977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" );
+background-image: url("https://images.pexels.com/photos/7966383/pexels-photo-7966383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" );
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -24,17 +24,15 @@ text-align: center;
 }
 
 h1{
-    color: white;
+    color: rgba(218, 213, 213, 0.979);
     z-index: 3;
     position: relative;
      bottom: 50px;
-     
-  
   
 }
 
 .gray-cover{
-    background-color: rgba(5, 2, 2, 0.377);
+    background-color: rgba(5, 2, 2, 0.438);
     position: absolute;
     z-index: 2;
     top: 0;
@@ -46,7 +44,7 @@ h1{
 .navbar{
     margin: 20px;
     padding: 20px;
-    background-color:rgba(185, 177, 167, 0.438);
+    background-color:rgba(250, 235, 215, 0.671);
     border-radius: 2px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  
@@ -64,70 +62,51 @@ h1{
 }
 
 a:hover{
-    color: rgba(177, 47, 47, 0.726);
+    color: rgb(104, 54, 54);
 }
 
+
+
+
 .main-container{
-    display:flex;
-        flex-direction: row;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    line-height: 1.8em;
+    justify-content: center;
+    padding-top: 3em;
+    background-color: rgba(250, 235, 215, 0.671);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
     padding: 20px;
+
 }
+
+.main-text{
+    color:rgb(104, 54, 54);
+    width:500px;
+    
+}
+
+
 
 
 .aside-img{
     width:400px;
-    border-radius:5px;
+    border-radius:3px;
+   
+    
 }
 
 .text-section{
+    
+    width: 500px;
+
     padding: 1em;
-    margin: 5em;
+
 }
 
 
-
-
-
-/* 
- .cake-section{
-    display: flex;
-    text-align: center;
-    gap: 10px;
-    padding: 20px;
-    margin: 9px;
-    justify-content:center;
-}
-.select-cake{
-    position: relative;
-     overflow: hidden;
-    width: 200px;
-    border-radius: 3px;
-} 
-
-
-
-
-
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-            width: 100%;
-            text-align: center;
-            padding: 40px;
-            visibility: hidden;
-            opacity: 0;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-        }
-
-        
-.cake-section:hover  .overlay {
-            visibility: visible;
-            opacity: 1;
-        }
- */
 
 
   .cake-section {
@@ -138,7 +117,9 @@ a:hover{
     margin: 9px;
     justify-content:center;
 
+
     }
+
 
     .cake-item {
         position: relative;
@@ -170,7 +151,7 @@ a:hover{
     }
 
     .text-container h1 {
-        color: black;
+            color: rgb(104, 54, 54);
              height: 2px;
              
     }
@@ -182,11 +163,12 @@ a:hover{
     padding: 5em;
     margin: 2em;
     line-height:1.9em;
+    
             
     }
 
     .footer-container{
-        background-color: rgba(167, 68, 68, 0.322); 
+        background-color: rgba(250, 235, 215, 0.671); 
         padding: 10px;
         margin-top: 80px;
         
@@ -201,7 +183,12 @@ a:hover{
 
     .social-media{
         display: flex;
-            justify-content: space-evenly;
     flex-direction: row;
+    gap: 5em;
+    justify-content: center;
         
+    }
+
+    .icon-media{
+        width: 50px;
     }
