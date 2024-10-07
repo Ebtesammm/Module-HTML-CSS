@@ -1,1 +1,257 @@
 /*  Add your styling here */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+
+    
+    font-family: "Poppins";
+}
+
+.header{
+background-image: url("https://images.pexels.com/photos/7966383/pexels-photo-7966383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" );
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 150px;
+position:relative;
+z-index: 2;
+text-align: center;
+}
+
+h1{
+    color: rgba(218, 213, 213, 0.979);
+    z-index: 3;
+    position: relative;
+     bottom: 50px;
+  
+}
+
+.gray-cover{
+    background-color: rgba(5, 2, 2, 0.438);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+    margin: 20px;
+    padding: 20px;
+    background-color:rgba(250, 235, 215, 0.671);
+    border-radius: 2px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+.navlist, a{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    color: rgb(104, 54, 54);
+}
+
+
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.8em;
+    justify-content: space-evenly;
+    background-color: rgba(250, 235, 215, 0.671);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1em;
+    padding:1em ;
+
+}
+
+.main-text{
+    color:rgb(104, 54, 54);
+    
+    
+}
+
+
+
+
+.aside-img{
+    width:300px;
+    border-radius:3px;
+   
+    
+}
+
+.text-section{
+    
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+
+    width: 330px;
+
+}
+
+
+
+
+  .cake-section {
+        display: flex;
+         text-align: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 9px;
+    justify-content:space-evenly;
+
+
+    }
+
+
+    .cake-item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .select-cake {
+  width: 200px;
+    border-radius: 3px;
+    
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 7px;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        cursor: pointer;
+    }
+
+    .cake-item:hover .overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .text-container h1 {
+            color: rgb(104, 54, 54);
+             height: 2px;
+             
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    padding: 5em;
+        margin-top: 5em;
+    line-height:1.9em;
+    
+            
+    }
+
+    .footer-container{
+         background-color: rgba(250, 235, 215, 0.616);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        margin-top: 80px;
+        
+        
+    }
+
+    .contact h3{
+        display: flex;
+        justify-content:center;
+            margin: 2em;
+    }
+
+    .social-media{
+        display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+        
+    }
+
+    .icon-media{
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .email{
+        display: flex;
+        justify-content: center;
+        padding-top: 1.6em;
+        flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 430px) {
+
+    .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* line-height: 1.8em; */
+    /* justify-content: center; */
+    padding-top: 3em;
+    background-color: rgba(250, 235, 215, 0.671);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    padding: 20px;
+}
+
+.main-text {
+    color: rgb(104, 54, 54);    
+    text-align: center;
+}
+
+.aside-img {
+    width: 220px;
+    border-radius: 3px;
+}
+
+.text-container {
+        display: flex;
+        /* padding: 1em; */
+        /* margin-top: 3em; */
+        flex-direction: column;
+        gap: 1em;
+    }
+    .cake-section {
+    display: grid;
+    /* text-align: center; */
+    gap: 10px;
+    padding: 10px;
+    /* margin: 9px; */
+    /* justify-content: space-evenly; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ }
+
+
+    
